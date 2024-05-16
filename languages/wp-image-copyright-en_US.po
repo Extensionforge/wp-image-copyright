@@ -1,0 +1,115 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Image Copyright 1.0.0\n"
+"POT-Creation-Date: 2024-05-14 22:52+0000\n"
+"PO-Revision-Date: 2024-05-14 23:04+0000\n"
+"Last-Translator: howdoyoufeel.today\n"
+"Language-Team: English (United States)\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"Report-Msgid-Bugs-To: \n"
+"X-Loco-Version: 2.6.9; wp-6.5.3"
+
+msgid "(Name, wie er auf der Webseite, woher das Bild stammt, steht.)"
+msgstr "(Name as it appears on the website from which the picture originates)"
+
+msgid "auf"
+msgstr "on"
+
+msgid "Autor des Bildes"
+msgstr "Author of the image"
+
+msgid "Bild ID"
+msgstr "Image ID"
+
+msgid "Bildanzeige im Shortcode"
+msgstr "Image display in the shortcode"
+
+msgid "Bildrecht Angaben"
+msgstr "Image rights information"
+
+msgid "Daten Entfernen"
+msgstr "Data removal"
+
+msgid "Daten wieder entfernen"
+msgstr "Remove data now"
+
+msgid "Einstellungen"
+msgstr "Settings"
+
+msgid "hier"
+msgstr "here"
+
+msgid "Keine Bilder gefunden."
+msgstr "No images found."
+
+msgid "Listen Ansicht"
+msgstr "List view"
+
+msgid ""
+"Möchten Sie einen Scann der Seite, wo Bilder verwendet werden, veranlassen?"
+msgstr "Would you like to request a scan of the page where images are used?"
+
+msgid "Name des Bildes"
+msgstr "Name of the image"
+
+msgid "Portalname"
+msgstr "Portalname"
+
+msgid "Quellenangabe"
+msgstr "Credit"
+
+msgid "Seiten scannen"
+msgstr "Scan pages"
+
+msgid "Seiten wurden erfolgreich gescannt"
+msgstr "Pages were scanned successfully"
+
+msgid "Settings"
+msgstr "Settings"
+
+msgid "Shortcode"
+msgstr "Shortcode"
+
+msgid "Shortcode Ansicht"
+msgstr "Shortcode view"
+
+msgid ""
+"Sollen alle Daten, welche dieses Plugin betreffen mit entfernt werden? <br>"
+"Aktivieren, wenn ja."
+msgstr ""
+"Should all data relating to this plugin be removed? <br>Activate if yes."
+
+msgid "Spalten Ansicht"
+msgstr "Column view"
+
+msgid "Suche Bilder..."
+msgstr "Search pictures..."
+
+msgid "URL zum Autor"
+msgstr "URL to author"
+
+msgid "URL zum Bild"
+msgstr "URL to the image"
+
+msgid "URL zum Portal"
+msgstr "URL to portal"
+
+msgid "Verwenden Sie den folgenden Shortcode, um die Bildrechte anzuzeigen:"
+msgstr "Use the following shortcode to display the image rights:"
+
+msgid "von"
+msgstr "by"
+
+msgid "wird auf folgenden Seiten angezeigt"
+msgstr "is displayed on the following pages"
+
+msgid "WP Image Copyright"
+msgstr "WP Image Copyright"
+
+msgid "WP Image Copyright - Dashboard"
+msgstr "WP Image Copyright - Dashboard"

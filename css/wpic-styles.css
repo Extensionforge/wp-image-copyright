@@ -1,0 +1,73 @@
+/* General plugin styles */
+.wpic-dashboard h1,
+.wpic-settings h1 {
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+.wpic-form-table {
+    width: 100%;
+    margin-bottom: 2em;
+}
+
+.wpic-form-table th {
+    width: 20%;
+    vertical-align: top;
+    text-align: left;
+    padding-right: 2em;
+}
+
+.wpic-form-table td {
+    width: 80%;
+}
+
+.wpic-shortcode {
+    display: block;
+    margin: 1em 0;
+    padding: 0.5em;
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    font-family: monospace;
+}
+
+.wpic-success {
+    color: green;
+    font-weight: bold;
+}
+
+.wpic-field-container {
+    border: 2px solid #0073aa;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #f1f1f1;
+}
+
+.wpic-field-container .wpic-field {
+    margin-bottom: 15px;
+}
+
+.wpic-field-container label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.wpic-field-container input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.wpic-field-container .help {
+    font-size: 0.9em;
+    color: #666;
+    margin-top: 5px;
+}
+
+.wpic-checked {
+    color: green;
+}
+
+.wpic-unchecked {
+    color: red;
+}

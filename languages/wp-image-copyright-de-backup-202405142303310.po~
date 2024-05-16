@@ -1,0 +1,97 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Image Copyright 1.0.0\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2024-05-14 22:51+0000\n"
+"Last-Translator: \n"
+"Language-Team: German\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"Plural-Forms: nplurals=2; plural=n != 1;"
+
+msgid "(Name, wie er auf der Webseite, woher das Bild stammt, steht.)"
+msgstr "(Name, wie er auf der Webseite, woher das Bild stammt, steht.)"
+
+msgid "Autor des Bildes"
+msgstr "Autor des Bildes"
+
+msgid "Bild ID"
+msgstr "Bild ID"
+
+msgid "Bildanzeige im Shortcode"
+msgstr "Bildanzeige im Shortcode"
+
+msgid "Bildrecht Angaben"
+msgstr "Bildrecht Angaben"
+
+msgid "Daten Entfernen"
+msgstr "Daten Entfernen"
+
+msgid "Daten wieder entfernen"
+msgstr "Daten wieder entfernen"
+
+msgid "Einstellungen"
+msgstr "Einstellungen"
+
+msgid "Listen Ansicht"
+msgstr "Listen Ansicht"
+
+msgid ""
+"Möchten Sie einen Scann der Seite, wo Bilder verwendet werden, veranlassen?"
+msgstr ""
+"Möchten Sie einen Scann der Seite, wo Bilder verwendet werden, veranlassen?"
+
+msgid "Name des Bildes"
+msgstr "Name des Bildes"
+
+msgid "Portalname"
+msgstr "Portalname"
+
+msgid "Quellenangabe"
+msgstr "Quellenangabe"
+
+msgid "Seiten scannen"
+msgstr "Seiten scannen"
+
+msgid "Seiten wurden erfolgreich gescannt"
+msgstr "Seiten wurden erfolgreich gescannt"
+
+msgid "Settings"
+msgstr "Einstellungen"
+
+msgid "Shortcode"
+msgstr "Shortcode"
+
+msgid "Shortcode Ansicht"
+msgstr "Shortcode Ansicht"
+
+msgid ""
+"Sollen alle Daten, welche dieses Plugin betreffen mit entfernt werden? <br>"
+"Aktivieren, wenn ja."
+msgstr ""
+"Sollen alle Daten, welche dieses Plugin betreffen mit entfernt werden? <br>"
+"Aktivieren, wenn ja."
+
+msgid "Spalten Ansicht"
+msgstr "Spalten Ansicht"
+
+msgid "URL zum Autor"
+msgstr "URL zum Autor"
+
+msgid "URL zum Bild"
+msgstr "URL zum Bild"
+
+msgid "URL zum Portal"
+msgstr "URL zum Portal"
+
+msgid "Verwenden Sie den folgenden Shortcode, um die Bildrechte anzuzeigen:"
+msgstr "Verwenden Sie den folgenden Shortcode, um die Bildrechte anzuzeigen:"
+
+msgid "WP Image Copyright"
+msgstr "WP Image Copyright"
+
+msgid "WP Image Copyright - Dashboard"
+msgstr "WP Image Copyright - Dashboard"

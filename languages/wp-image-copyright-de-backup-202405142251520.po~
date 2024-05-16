@@ -1,0 +1,67 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Image Copyright 1.0.0\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2024-05-15 00:17+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4.4\n"
+
+msgid "WP Image Copyright - Dashboard"
+msgstr "WP Image Copyright - Dashboard"
+
+msgid "WP Image Copyright"
+msgstr "WP Image Copyright"
+
+msgid "Einstellungen"
+msgstr "Einstellungen"
+
+msgid "Bildanzeige im Shortcode"
+msgstr "Bildanzeige im Shortcode"
+
+msgid ""
+"Möchten Sie einen Scann der Seite, wo Bilder verwendet werden, veranlassen?"
+msgstr ""
+"Möchten Sie einen Scann der Seite, wo Bilder verwendet werden, veranlassen?"
+
+msgid "Shortcode Ansicht"
+msgstr "Shortcode Ansicht"
+
+msgid "Listen Ansicht"
+msgstr "Listen Ansicht"
+
+msgid "Spalten Ansicht"
+msgstr "Spalten Ansicht"
+
+msgid "Shortcode"
+msgstr "Shortcode"
+
+msgid "Verwenden Sie den folgenden Shortcode, um die Bildrechte anzuzeigen:"
+msgstr "Verwenden Sie den folgenden Shortcode, um die Bildrechte anzuzeigen:"
+
+msgid "Seiten scannen"
+msgstr "Seiten scannen"
+
+msgid "Seiten wurden erfolgreich gescannt"
+msgstr "Seiten wurden erfolgreich gescannt"
+
+msgid "Daten wieder entfernen"
+msgstr "Daten wieder entfernen"
+
+msgid "Daten Entfernen"
+msgstr "Daten Entfernen"
+
+msgid ""
+"Sollen alle Daten, welche dieses Plugin betreffen mit entfernt werden? "
+"<br>Aktivieren, wenn ja."
+msgstr ""
+"Sollen alle Daten, welche dieses Plugin betreffen mit entfernt werden? "
+"<br>Aktivieren, wenn ja."
+
+msgid "Settings"
+msgstr "Einstellungen"

@@ -1,0 +1,108 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Image Copyright 1.0.0\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Language: en\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "WP Image Copyright - Dashboard"
+msgstr ""
+
+msgid "WP Image Copyright"
+msgstr ""
+
+msgid "Einstellungen"
+msgstr ""
+
+msgid "Bildanzeige im Shortcode"
+msgstr ""
+
+msgid "Möchten Sie einen Scann der Seite, wo Bilder verwendet werden, veranlassen?"
+msgstr ""
+
+msgid "Shortcode Ansicht"
+msgstr ""
+
+msgid "Listen Ansicht"
+msgstr ""
+
+msgid "Spalten Ansicht"
+msgstr ""
+
+msgid "Shortcode"
+msgstr ""
+
+msgid "Verwenden Sie den folgenden Shortcode, um die Bildrechte anzuzeigen:"
+msgstr ""
+
+msgid "Seiten scannen"
+msgstr ""
+
+msgid "Seiten wurden erfolgreich gescannt"
+msgstr ""
+
+msgid "Daten wieder entfernen"
+msgstr ""
+
+msgid "Einstellungen"
+msgstr ""
+
+msgid "Daten Entfernen"
+msgstr ""
+
+msgid "Sollen alle Daten, welche dieses Plugin betreffen mit entfernt werden? <br>Aktivieren, wenn ja."
+msgstr ""
+
+msgid "Settings"
+msgstr ""
+
+msgid "Bildrecht Angaben"
+msgstr ""
+
+msgid "Name des Bildes"
+msgstr ""
+
+msgid "(Name, wie er auf der Webseite, woher das Bild stammt, steht.)"
+msgstr ""
+
+msgid "URL zum Bild"
+msgstr ""
+
+msgid "Autor des Bildes"
+msgstr ""
+
+msgid "URL zum Autor"
+msgstr ""
+
+msgid "Portalname"
+msgstr ""
+
+msgid "URL zum Portal"
+msgstr ""
+
+msgid "Bild ID"
+msgstr ""
+
+msgid "Quellenangabe"
+msgstr ""
+
+msgid "Keine Bilder gefunden."
+msgstr ""
+
+msgid "von"
+msgstr ""
+
+msgid "auf"
+msgstr ""
+
+msgid "wird auf folgenden Seiten angezeigt"
+msgstr ""
+
+msgid "hier"
+msgstr ""
+
+msgid "Suche Bilder..."
+msgstr ""

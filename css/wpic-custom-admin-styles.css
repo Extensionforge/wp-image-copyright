@@ -1,0 +1,188 @@
+/* Custom admin styles for WP Image Copyright */
+
+/* Toolbar styles */
+#wpic-admin-toolbar {
+    background-color: #7a3099;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #b4b4b4;
+    margin: 0 0 0 -20px;
+}
+
+.wpic-admin-toolbar-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.wpic-toolbar-left {
+    display: flex;
+    align-items: center;
+}
+
+.wpic-toolbar-logo-left img {
+    height: 40px;
+    margin-right: 20px;
+}
+
+.wpic-toolbar-menu {
+    display: flex;
+}
+
+.wpic-toolbar-menu a {
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    min-height: 40px;
+    margin-right: 8px;
+    padding-top: 8px;
+    padding-right: 16px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: transparent;
+    border-radius: 6px;
+    color: white;
+    text-decoration: none;
+}
+
+.wpic-toolbar-menu a:hover {
+    text-decoration: underline;
+}
+
+.wpic-toolbar-menu ul li a:active {
+    background: yellow !important;
+}
+
+.wpic-toolbar-logo-right img {
+    height: 40px;
+}
+
+/* Dropdown styles (for future use) */
+.wpic-toolbar-menu li:hover ul {
+    display: block;
+}
+
+.wpic-toolbar-menu ul ul {
+    display: none;
+    position: absolute;
+    background-color: #0073aa;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.wpic-toolbar-menu ul ul li {
+    margin-right: 0;
+}
+
+.wpic-toolbar-menu ul ul a {
+    color: #ffffff;
+}
+
+#wpic-header-bar {
+    background: white;
+    padding: 5px 20px;
+    margin: 0 0 20px -20px;
+}
+
+#wpic-header-bar h1 {
+    color: #0073aa;
+}
+
+/* Custom styles for form elements */
+#wpwrap .wpic-dashboard .wrap,
+#wpwrap .wpic-settings .wrap {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#wpwrap .wpic-form-table {
+    width: 100%;
+    margin-bottom: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#wpwrap .wpic-form-table th,
+#wpwrap .wpic-form-table label {
+    width: 25%;
+    text-align: left;
+    padding-right: 20px;
+    font-weight: bold;
+}
+
+#wpwrap .wpic-form-table td {
+    width: 75%;
+}
+
+#wpwrap .wpic-form-table input[type="text"],
+#wpwrap .wpic-form-table input[type="checkbox"],
+#wpwrap .wpic-form-table input[type="radio"],
+#wpwrap .wpic-form-table textarea,
+#wpwrap .wpic-form-table select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#wpwrap .wpic-form-table input[type="checkbox"],
+#wpwrap .wpic-form-table input[type="radio"] {
+    width: auto;
+}
+
+#wpwrap .wpic-shortcode {
+    display: block;
+    background-color: #f1f1f1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-family: monospace;
+    margin-bottom: 20px;
+}
+
+#wpwrap .wpic-success {
+    color: green;
+    font-weight: bold;
+}
+
+#wpwrap .wpic-field-container {
+    border: 2px solid #0073aa;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+}
+
+#wpwrap .wpic-field-container .wpic-field {
+    margin-bottom: 15px;
+}
+
+#wpwrap .wpic-field-container label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+#wpwrap .wpic-field-container input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+#wpwrap .wpic-field-container .help {
+    font-size: 0.9em;
+    color: #666;
+    margin-top: 5px;
+}

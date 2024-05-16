@@ -1,0 +1,72 @@
+/* Search styles */
+.wpic-search-container {
+    margin-bottom: 40px;
+}
+
+.wpic-search {
+    width: 100%;
+    padding: 10px 19px 2px !important;;
+    border-radius:20px;
+    font-size: inherit;
+    font-size: 1.1em;
+    box-sizing: border-box;
+}
+
+/* Shortcode output styles */
+#wpic-entries {background:#ffffff30;border-radius:20px;padding:20px}
+
+.wpic-columns {
+    -moz-column-count: 3; /* Für Firefox */
+    -webkit-column-count: 3; /* Für Chrome, Safari */
+    column-count: 3; /* Standard CSS3-Property */
+    -moz-column-gap: 20px;
+    -webkit-column-gap: 20px;
+    column-gap: 20px; /* Abstand zwischen den Spalten */
+    width: 100%;
+    max-width: 100%; /* Ensure the container uses full width */
+}
+
+.wpic-column-item {
+    break-inside: avoid;
+    display: block;
+    margin-bottom: 20px;
+    border-left:1px solid #5c374c30;
+    padding-left:10px;
+}
+
+.wpic-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.wpic-list-item {
+    margin-bottom: 1em;
+}
+
+.wpic-image-url,
+.wpic-author-url,
+.wpic-portal-url,
+.wpic-page-url {
+    text-decoration: none;
+    color: #0073aa;
+}
+
+.wpic-image-url:hover,
+.wpic-author-url:hover,
+.wpic-portal-url:hover,
+.wpic-page-url:hover {
+    text-decoration: underline;
+}
+
+/* Media Queries for responsiveness */
+@media (max-width: 1024px) {
+    .wpic-columns {
+        column-count: 2;
+    }
+}
+
+@media (max-width: 768px) {
+    .wpic-columns {
+        column-count: 1;
+    }
+}
