@@ -2,7 +2,7 @@
 
 /* Toolbar styles */
 #wpic-admin-toolbar {
-    background-color: #7a3099;
+    background-color: #833ba1;
     padding: 15px 20px;
     display: flex;
     justify-content: space-between;
@@ -54,7 +54,7 @@
     text-decoration: underline;
 }
 
-.wpic-toolbar-menu ul li a:active {
+.wpic-toolbar-menu a:active {
     background: yellow !important;
 }
 
