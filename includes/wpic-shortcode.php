@@ -19,9 +19,43 @@ function wpic_shortcode($atts) {
         return '<p>' . __('Keine Bilder gefunden.', 'wp-image-copyright') . '</p>';
     }
 
+    $portals = array();
+    foreach ($attachments as $attachment) {
+        $portal = get_post_meta($attachment->ID, 'wpic_portal', true);
+        if ($portal && !in_array($portal, $portals)) {
+            $portals[] = $portal;
+        }
+    }
+
     $output = '<div class="wpic-search-container">';
     $output .= '<input type="text" id="wpic-search" class="wpic-search" placeholder="' . esc_attr__('Suche Bilder...', 'wp-image-copyright') . '">';
     $output .= '</div>';
+
+    // Filtergruppe
+    $output .= '<div class="wpic-filtergroup">';
+    
+    // Anzahl der Einträge Filter
+    $output .= '<div class="wpic-entries-per-page">';
+    $output .= '<label for="wpic-entries-per-page">' . __('Einträge pro Seite:', 'wp-image-copyright') . '</label>';
+    $output .= '<select id="wpic-entries-per-page">';
+    $output .= '<option value="20">20</option>';
+    $output .= '<option value="40">40</option>';
+    $output .= '<option value="60">60</option>';
+    $output .= '</select>';
+    $output .= '</div>';
+
+    // Portal-Filter
+    $output .= '<div class="wpic-portal-filter">';
+    $output .= '<label for="wpic-portal-filter">' . __('Portal:', 'wp-image-copyright') . '</label>';
+    $output .= '<select id="wpic-portal-filter">';
+    $output .= '<option value="">' . __('Alle Portale', 'wp-image-copyright') . '</option>';
+    foreach ($portals as $portal) {
+        $output .= '<option value="' . esc_attr($portal) . '">' . esc_html($portal) . '</option>';
+    }
+    $output .= '</select>';
+    $output .= '</div>';
+
+    $output .= '</div>'; // Ende der Filtergruppe
 
     if ($atts['columns']) {
         $output .= '<div id="wpic-entries" class="wpic-columns">';
@@ -44,9 +78,9 @@ function wpic_shortcode($atts) {
         $entry = '';
 
         if ($atts['columns']) {
-            $entry .= '<div class="wpic-column-item">';
+            $entry .= '<div class="wpic-entry wpic-column-item" data-portal="' . esc_attr($wpic_portal) . '">';
         } else {
-            $entry .= '<li class="wpic-list-item">';
+            $entry .= '<li class="wpic-entry wpic-list-item" data-portal="' . esc_attr($wpic_portal) . '">';
         }
 
         // Bildname
@@ -110,6 +144,13 @@ function wpic_shortcode($atts) {
     } else {
         $output .= '</ul>';
     }
+
+    // Pagination
+    $output .= '<div id="wpic-pagination" class="wpic-pagination">';
+    $output .= '<button id="wpic-prev-page" class="wpic-pagination-btn">&lt;</button>';
+    $output .= '<span id="wpic-page-numbers"></span>';
+    $output .= '<button id="wpic-next-page" class="wpic-pagination-btn">&gt;</button>';
+    $output .= '</div>';
 
     return $output;
 }

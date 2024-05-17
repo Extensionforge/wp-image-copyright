@@ -80,12 +80,14 @@ function wpic_enqueue_custom_admin_assets() {
 }
 
 
-
-// Load plugin textdomain
-add_action('plugins_loaded', 'wpic_load_textdomain');
-function wpic_load_textdomain() {
-    load_plugin_textdomain('wp-image-copyright', false, dirname(plugin_basename(__FILE__)) . '/languages');
+function wpic_enqueue_scripts() {
+    wp_enqueue_script('wpic-frontend', plugins_url('js/wpic-frontend.js', __FILE__), array('jquery'), null, true);
+    wp_localize_script('wpic-frontend', 'wpicSettings', array(
+        'ajaxUrl' => admin_url('admin-ajax.php')
+    ));
 }
+add_action('wp_enqueue_scripts', 'wpic_enqueue_scripts');
+
 
 // Uninstall callback
 function wpic_uninstall() {

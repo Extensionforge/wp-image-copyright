@@ -1,16 +1,43 @@
 /* Search styles */
 .wpic-search-container {
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 .wpic-search {
     width: 100%;
-    padding: 10px 19px 2px !important;;
+    padding: 10px 20px !important;
     border-radius:20px;
     font-size: inherit;
     font-size: 1.1em;
     box-sizing: border-box;
 }
+
+.wpic-filtergroup {
+display:flex;
+gap:20px;
+flex-direction:row;
+margin:20px 0 20px 2px
+}
+
+.wpic-pagination {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.wpic-pagination-btn {
+    background-color: #0073aa;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.wpic-pagination-btn:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
 
 /* Shortcode output styles */
 #wpic-entries {background:#ffffff30;border-radius:20px;padding:20px}
@@ -26,7 +53,7 @@
     max-width: 100%; /* Ensure the container uses full width */
 }
 
-.wpic-column-item {
+.wpic-entry, .wpic-column-item {
     break-inside: avoid;
     display: block;
     margin-bottom: 20px;
